@@ -576,21 +576,21 @@
         <!-- sở chỉ huy De Castries -->
         <line x1="400" y1="222" x2="400" y2="204" stroke="var(--phap)" stroke-width="1.5"/>
         <path d="M400,205 L414,209 L400,213 Z" fill="var(--phap)"/>
-        <!-- pháo ta trái -->
+        <!-- pháo ta trái (lưng chừng sườn trong, hướng vào lòng chảo) -->
         <g>
-          <path d="M118,80 L142,80 L130,67 Z" fill="var(--ta)"/>
-          <line x1="130" y1="75" x2="151" y2="83" stroke="var(--ta)" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M156,121 L180,121 L168,108 Z" fill="var(--ta)"/>
+          <line x1="168" y1="115" x2="189" y2="123" stroke="var(--ta)" stroke-width="2.6" stroke-linecap="round"/>
         </g>
-        <!-- pháo ta phải -->
+        <!-- pháo ta phải (lưng chừng sườn trong, hướng vào lòng chảo) -->
         <g>
-          <path d="M658,84 L682,84 L670,71 Z" fill="var(--ta)"/>
-          <line x1="670" y1="79" x2="649" y2="87" stroke="var(--ta)" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M620,121 L644,121 L632,108 Z" fill="var(--ta)"/>
+          <line x1="632" y1="115" x2="611" y2="123" stroke="var(--ta)" stroke-width="2.6" stroke-linecap="round"/>
         </g>
         <!-- quỹ đạo bắn xuống lòng chảo -->
-        <path d="M152,82 Q 300,-4 396,222" fill="none" stroke="var(--ta)" stroke-width="1.7" stroke-dasharray="2 7" stroke-linecap="round" marker-end="url(#fire)"/>
-        <path d="M648,86 Q 500,-4 408,222" fill="none" stroke="var(--ta)" stroke-width="1.7" stroke-dasharray="2 7" stroke-linecap="round" marker-end="url(#fire)"/>
+        <path d="M190,122 Q 300,30 396,222" fill="none" stroke="var(--ta)" stroke-width="1.7" stroke-dasharray="2 7" stroke-linecap="round" marker-end="url(#fire)"/>
+        <path d="M610,122 Q 500,30 408,222" fill="none" stroke="var(--ta)" stroke-width="1.7" stroke-dasharray="2 7" stroke-linecap="round" marker-end="url(#fire)"/>
         <!-- đường tiếp tế + xe đạp thồ -->
-        <path d="M6,288 Q 56,250 66,206 Q 76,156 118,94" fill="none" stroke="var(--ta)" stroke-width="1.5" stroke-dasharray="3 5" opacity=".7"/>
+        <path d="M6,288 Q 56,250 66,206 Q 84,152 158,123" fill="none" stroke="var(--ta)" stroke-width="1.5" stroke-dasharray="3 5" opacity=".7"/>
         <g stroke="var(--ta)" stroke-width="1.5" fill="none" opacity=".95" stroke-linecap="round" stroke-linejoin="round">
           <circle cx="40" cy="232" r="6.5"/><circle cx="62" cy="232" r="6.5"/>
           <path d="M40 232 L51 222 H58 M51 222 L56 232 M54 218 H60"/>
@@ -600,8 +600,8 @@
         </defs>
         <!-- nhãn -->
         <g font-family="Space Mono, monospace" font-size="10" letter-spacing="1" fill="var(--muted)" text-anchor="middle">
-          <text x="130" y="52">PHÁO TA</text>
-          <text x="670" y="56">PHÁO TA</text>
+          <text x="172" y="100">PHÁO TA</text>
+          <text x="628" y="100">PHÁO TA</text>
           <text x="400" y="270">LÒNG CHẢO MƯỜNG THANH</text>
         </g>
         <text x="400" y="194" font-family="Space Mono, monospace" font-size="9" letter-spacing="1" fill="var(--phap)" text-anchor="middle">SỞ CHỈ HUY</text>
@@ -825,7 +825,7 @@
     </div>
 
     <div class="closing reveal">
-      <p class="big">Người Pháp chọn nơi quyết chiến.<br>Nhưng người Việt Nam chọn <em>"cách"</em> quyết chiến.</p>
+      <p class="big">Người Pháp chọn nơi quyết chiến.<br>Nhưng người Việt Nam chọn <em>cách</em> quyết chiến.</p>
     </div>
   </div>
 </section>
@@ -932,6 +932,17 @@
             <div class="acell task">Thu thập &amp; đối chiếu nguồn tư liệu; kiểm chứng số liệu và mốc thời gian; biên soạn phụ lục, chú giải thuật ngữ và rà soát nội dung.</div>
           </div>
         </div>
+      </div>
+
+      <!-- D · Công cụ & xuất bản -->
+      <div class="apx-block reveal d3">
+        <h3><span class="ax">D</span> Công cụ &amp; xuất bản</h3>
+        <dl class="gloss">
+          <div class="gterm"><dt>Claude AI (Anthropic)</dt><dd>Hỗ trợ lập trình HTML/CSS/SVG, dựng đồ họa trực quan và biên tập, kiểm chứng nội dung.</dd></div>
+          <div class="gterm"><dt>HTML · CSS · SVG</dt><dd>Ngôn ngữ nền tảng dựng toàn bộ infographic, không dùng thư viện hay framework ngoài.</dd></div>
+          <div class="gterm"><dt>GitHub</dt><dd>Lưu trữ và quản lý mã nguồn của sản phẩm.</dd></div>
+          <div class="gterm"><dt>GitHub Pages</dt><dd>Xuất bản trang infographic công khai để truy cập trực tuyến.</dd></div>
+        </dl>
       </div>
     </div>
   </div>
